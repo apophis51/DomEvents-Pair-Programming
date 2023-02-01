@@ -2,7 +2,7 @@ let button = document.querySelector("button");
 let log = document.querySelector("input");
 let body = document.querySelector("body");
 
-// console.log("ghf");
+console.log("ghf")
 
 
 // button.addEventListener('click', function());
@@ -54,6 +54,7 @@ let body = document.querySelector("body");
 button.addEventListener("click", function(changeColor) {
     function changeColor(i) {
         let inputValue = log.value;
-        body.style.backgroundColor = "inputValue";
+        console.log(inputValue);
+        body.style.backgroundColor = inputValue;
     }
 })

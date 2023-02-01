@@ -22,15 +22,16 @@ const input = document.querySelector('input');
 const logg = document.querySelector('#values');
 
 
-input.adEventListener('input', function (egh) {
-    let store = logg.textContent = egh.target.value;
-body.style.backgroundColor = egh.target.value
- });
+// log.addEventListener('input', function (egh) {
+//      logg.textContent = egh.target.value;
+//      body.style.backgroundColor = egh.target.value
+//  });
 
 
-//   button.addEventListener('click', function(event) {
-//     body.style.backgroundColor = `${store}`
-// })
+  button.addEventListener('click', function(event) {
+     alert("hello")
+      body.style.backgroundColor = input.value
+  })
 
 
 // let clickTracker = document.querySelector('p')
